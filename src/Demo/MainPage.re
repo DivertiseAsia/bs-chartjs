@@ -6,6 +6,7 @@ let make = () => {
   {
     let url = ReasonReactRouter.useUrl();
     switch(url.path){
+      | ["chart","bar"] => <ChartBarDemo />
       | ["chart","doughnut"] => <ChartDoughnutDemo />
       | _ => <ChartDoughnutDemo />
     }

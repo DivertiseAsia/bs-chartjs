@@ -3,7 +3,7 @@ type dataXYR = {
     y : int,
     r : int
 };
-type datasets = {
+type dataset = {
     label: string,
     fill: bool,
     lineTension: float,
@@ -27,7 +27,7 @@ type datasets = {
 
 type data = {
     labels: array(string),
-    datasets: array(datasets)
+    datasets: array(dataset)
 };
 
 [@react.component] [@bs.module "react-chartjs-2"]

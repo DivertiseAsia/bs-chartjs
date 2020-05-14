@@ -5,20 +5,20 @@ let make = () => {
         (React.string("Chart Doughnut Demo"))
         <Chart_Doughnut 
             data = {
-                "datasets": [|{
-                "data": [|300, 50, 100|],
-                "backgroundColor": [|
+                datasets: [|{
+                data: [|300, 50, 100|],
+                backgroundColor: [|
                     "#FF6384",
                     "#36A2EB",
                     "#FFCE56"
                 |],
-                "hoverBackgroundColor": [|
+                hoverBackgroundColor: [|
                     "#FF6384",
                     "#36A2EB",
                     "#FFCE56"
                 |]
                 }|],
-                "labels": [|
+                labels: [|
                     "Red",
                     "Yellow",
                     "Blue"
@@ -31,20 +31,20 @@ let make = () => {
         (React.string('Chart Doughnut Demo'))
         <Chart_Doughnut 
         data = {
-            'datasets': [|{
-            'data': [|300, 50, 100|],
-            'backgroundColor': [|
+            datasets: [|{
+            data: [|300, 50, 100|],
+            backgroundColor: [|
                 '#FF6384',
                 '#36A2EB',
                 '#FFCE56'
             |],
-            'hoverBackgroundColor': [|
+            hoverBackgroundColor: [|
                 '#FF6384',
                 '#36A2EB',
                 '#FFCE56'
             |]
             }|],
-            'labels': [|
+            labels: [|
                 'Red',
                 'Yellow',
                 'Blue'

@@ -1,8 +1,20 @@
-
+type dataset = {
+    label: string,
+    backgroundColor: string,
+    borderColor: string,
+    borderWidth: int,
+    hoverBackgroundColor: string,
+    hoverBorderColor: string,
+    data:array(int)
+};
+type data = {
+    labels: array(string),
+    datasets: array(dataset)
+};
 [@react.component] [@bs.module "react-chartjs-2"]
 external make:
     (
-    ~data: Js.t('a),
+    ~data: data,
     ~width: int=?,
     ~height: int=?,
     ~id: string=?,

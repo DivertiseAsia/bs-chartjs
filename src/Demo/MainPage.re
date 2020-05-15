@@ -13,6 +13,7 @@ let make = () => {
       | ["chart","line"] => <ChartLineDemo />
       | ["chart","pie"] => <ChartPieDemo />
       | ["chart","polar"] => <ChartPolarDemo />
+      | ["chart","radar"] => <ChartRadarDemo />
       | _ => <ChartDoughnutDemo />
     }
   }

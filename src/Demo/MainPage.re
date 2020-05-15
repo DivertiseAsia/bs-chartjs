@@ -14,6 +14,7 @@ let make = () => {
       | ["chart","pie"] => <ChartPieDemo />
       | ["chart","polar"] => <ChartPolarDemo />
       | ["chart","radar"] => <ChartRadarDemo />
+      | ["chart","scatter"] => <ChartScatterDemo />
       | _ => <ChartDoughnutDemo />
     }
   }

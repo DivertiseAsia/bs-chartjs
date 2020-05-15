@@ -9,6 +9,7 @@ let make = () => {
       | ["chart","bar"] => <ChartBarDemo />
       | ["chart","bubble"] => <ChartBubbleDemo />
       | ["chart","doughnut"] => <ChartDoughnutDemo />
+      | ["chart","horizontalbar"] => <ChartHorizontalBarDemo />
       | ["chart","line"] => <ChartLineDemo />
       | _ => <ChartDoughnutDemo />
     }

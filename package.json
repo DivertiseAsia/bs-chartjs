@@ -40,6 +40,8 @@
     "bs-react-testing-library": "^0.6.0",
     "bs-webapi": "^0.15.9",
     "bsdoc": "^6.0.2-alpha",
+    "canvas": "^2.6.1",
+    "jest-canvas-mock": "^2.2.0",
     "moduleserve": "github:marijnh/moduleserve#7db414e"
   }
 }

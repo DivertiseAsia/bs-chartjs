@@ -1,7 +1,5 @@
 open Jest;
 open Expect;
-open ReactTestingLibrary;
-open ReasonReact;
 
 test("Test Chart Doughnut",() => {
   <div>
@@ -27,8 +25,6 @@ test("Test Chart Doughnut",() => {
     }
     />
   </div>
-  |> render
-  |> container
   |> expect
   |> toMatchSnapshot
 })

@@ -21,13 +21,12 @@
   "suffix": ".bs.js",
   "namespace": false,
   "bs-dependencies": [
-    "reason-react"
+    "@rescript/react"
   ],
   "bs-dev-dependencies": [
     "@glennsl/bs-jest",
-    "bs-jest-dom",
-    "bs-webapi",
-    "bs-react-testing-library"
-  ],
-  "refmt": 3
+    "rescript-webapi",
+    "rescript-dom-testing-library",
+    "rescript-react-testing-library"
+  ]
 }

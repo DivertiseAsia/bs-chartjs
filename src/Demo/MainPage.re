@@ -4,7 +4,7 @@ let make = () => {
   <div>
   (React.string("Chart Here!"))  
   {
-    let url = ReasonReactRouter.useUrl();
+    let url = RescriptReactRouter.useUrl();
     switch(url.path){
       | ["chart","bar"] => <ChartBarDemo />
       | ["chart","bubble"] => <ChartBubbleDemo />

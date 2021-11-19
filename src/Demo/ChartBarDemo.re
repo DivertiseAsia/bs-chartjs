@@ -45,7 +45,7 @@ let make = () => {
     <blockquote>
         <pre>
         <code>
-        {ReasonReact.string(demoCodeString)}
+        {React.string(demoCodeString)}
         </code>
         </pre>
     </blockquote>

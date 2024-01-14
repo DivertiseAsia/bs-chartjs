@@ -1,6 +1,6 @@
 {
   "name": "@divertise-asia/bs-chart",
-  "version": "2.2.0",
+  "version": "4.0.0",
   "scripts": {
     "build": "rescript build",
     "start": "rescript build -w",

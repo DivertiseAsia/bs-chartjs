@@ -26,7 +26,6 @@
     "access": "public"
   },
   "dependencies": {
-    "bs-platform": "^9.0.2",
     "chart.js": "^4.4.1",
     "nan": "^2.14.1",
     "react": "^18.2.0",

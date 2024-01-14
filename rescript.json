@@ -33,7 +33,6 @@
     "@rescript/react"
   ],
   "bs-dev-dependencies": [
-    "rescript-dom-testing-library",
-    "rescript-react-testing-library"
+
   ]
 }

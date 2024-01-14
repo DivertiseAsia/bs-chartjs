@@ -20,4 +20,4 @@ external make: (
   ~getElementAtEvent: unit => unit=?,
   ~getElementsAtEvent: unit => unit=?,
   ~onElementsClick: unit => unit=?,
-) => React.element = "Polar"
+) => React.element = "PolarArea"

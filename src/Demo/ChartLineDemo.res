@@ -1,3 +1,5 @@
+Chart.register(Chart.lineElement)
+
 @react.component
 let make = () => {
   let demoCode =

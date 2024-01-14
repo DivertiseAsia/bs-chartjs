@@ -1,3 +1,8 @@
+Chart.register(Chart.categoryScale)
+Chart.register(Chart.linearScale)
+Chart.register(Chart.barElement)
+Chart.register(Chart.pointElement)
+
 @react.component
 let make = () => {
   let demoCode =

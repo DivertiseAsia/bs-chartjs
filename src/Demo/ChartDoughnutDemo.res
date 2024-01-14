@@ -1,3 +1,6 @@
+// ChartJs v4+ is tree-shakeable, so we can import only the components we need
+Chart.register(Chart.arcElement);
+
 @react.component
 let make = () => {
   let demoCode =

@@ -1,3 +1,6 @@
+Chart.register(Chart.radialLinearScale);
+
+
 @react.component
 let make = () => {
   let demoCode =

@@ -1,23 +1,32 @@
 {
   "name": "@divertise-asia/bs-chart",
-  "reason": {
-    "react-jsx": 3
-  },
   "sources": [
     {
-    "dir" : "src/Components",
-    "subdirs" : true
+      "dir": "src/Components",
+      "subdirs": true
+    },
+    {
+      "dir": "src/Demo",
+      "subdirs": true,
+      "type": "dev"
     },
     {
       "dir": "__tests__",
       "type": "dev"
     }
   ],
-  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header", "-w -48"],
-  "package-specs": [{
-    "module": "commonjs",
-    "in-source": false
-  }],
+  "bsc-flags": [
+    "-bs-super-errors",
+    "-bs-no-version-header",
+    "-w -48"
+  ],
+  "jsx": { "version": 4, "mode": "automatic" },
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": false
+    }
+  ],
   "suffix": ".bs.js",
   "namespace": false,
   "bs-dependencies": [

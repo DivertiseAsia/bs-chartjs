@@ -5,8 +5,8 @@
   },
   "sources": [
     {
-    "dir" : "src",
-    "subdirs" : ["Components", "Demo"]
+    "dir" : "src/Components",
+    "subdirs" : true
     },
     {
       "dir": "__tests__",
@@ -24,8 +24,6 @@
     "@rescript/react"
   ],
   "bs-dev-dependencies": [
-    "@glennsl/bs-jest",
-    "rescript-webapi",
     "rescript-dom-testing-library",
     "rescript-react-testing-library"
   ]
